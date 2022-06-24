@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<form method="GET" action="/">
+    <button type="submit" name="getAll">Вывести все</button>
+    <button type="submit" name="getById">Найти по ID</button>
+    {% if logged %}
+        <button type="submit" name="deleteById">Удалить по ID</button>
+        <button type="submit" name="add">Добавить как {{ name }}</button>
+        <button type="submit" name="logout">Выйти</button>
+    {% else %}
+        <button type="submit" name="login">Авторизоваться</button>
+    {% endif %}
+</form>
+</html>
