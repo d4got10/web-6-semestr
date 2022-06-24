@@ -1,2 +1,2 @@
 Терминал: 
- ![l1](/screen.png)
+ ![Screenshot](screen.png)
